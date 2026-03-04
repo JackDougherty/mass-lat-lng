@@ -1,11 +1,7 @@
-# leaflet-map-simple
-A simple Leaflet map template for new users to fork their own copy, edit, and host on GitHub Pages
+# mass-lat-lng
+simple Leaflet map demo of 0.001 diffs in lat and lng in Boston
 
-## Link to live map (replace with link to your site)
-https://handsondataviz.github.io/leaflet-map-simple/
+## Link to live map
+https://jackdougherty.github.io/mass-lat-lng
 
-center
-42.35113504065884, -71.11577593232147
-
-## Create your own
-See step-by-step tutorial at https://HandsOnDataViz.org, an open-access book by Jack Dougherty and Ilya Ilyankou
+centered on Commonwealth Ave and St Paul near Boston Univ

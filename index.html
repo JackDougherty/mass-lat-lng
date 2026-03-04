@@ -19,7 +19,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">EDIT map title</div>
+  <div id="map-title">Demo 0.001 lat lng diffs</div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
@@ -27,8 +27,8 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
-    zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    center: [42.35113504065884, -71.11577593232147], // EDIT coordinates to re-center map
+    zoom: 15,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
 
@@ -41,8 +41,16 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([42.35113504065884, -71.11577593232147]).addTo(map)
+  .bindPopup("Center");
+  L.marker([42.35213504065884, -71.11577593232147]).addTo(map)
+  .bindPopup("0.001 lat N");
+  L.marker([42.35113504065884, -71.11577593232147]).addTo(map)
+  .bindPopup("0.001 lat S");
+  L.marker([42.35113504065884, -71.11477593232147]).addTo(map) 
+  .bindPopup("0.001 lng E");
+  L.marker([42.35113504065884, -71.11677593232147]).addTo(map)
+  .bindPopup("0.001 lng W");
 
   </script>
 </body>
