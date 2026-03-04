@@ -28,7 +28,7 @@
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
     center: [42.35113504065884, -71.11577593232147], // EDIT coordinates to re-center map
-    zoom: 15,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    zoom: 17,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
 
@@ -45,9 +45,9 @@
   .bindPopup("Center");
   L.marker([42.35213504065884, -71.11577593232147]).addTo(map)
   .bindPopup("0.001 lat N");
-  L.marker([42.35113504065884, -71.11577593232147]).addTo(map)
+  L.marker([42.35013504065884, -71.11577593232147]).addTo(map)
   .bindPopup("0.001 lat S");
-  L.marker([42.35113504065884, -71.11477593232147]).addTo(map) 
+  L.marker([42.35113504065884, -71.11477593232147]).addTo(map)
   .bindPopup("0.001 lng E");
   L.marker([42.35113504065884, -71.11677593232147]).addTo(map)
   .bindPopup("0.001 lng W");
